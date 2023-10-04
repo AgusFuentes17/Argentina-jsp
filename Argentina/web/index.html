@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>ARGENTINA</h1>
+        <form action="argDatos.jsp" method="post">
+                <div id="Salta">      
+                        <div class="check"><input type="radio" id="Salta" name="provincia" required value="Salta"></div>
+                        <div class="provincia"><p>SALTA</p></div>
+                        <div class="imagen"><img src="salta.jpg"></div>
+                        <div class="listas"><ul><li>1⁄2 pensión c/ aéreo</li><br><li>1⁄2 pensión c/ bus</li><br><li>Desayuno s/ traslados</li></ul></div>
+                        <div class="checksPens"><input type="radio" class="pensiones" name="pensiones" id="medioS" required value="aereo">
+                                <input type="radio" class="pensiones" name="pensiones" id="busS" required value="bus">
+                                <input type="radio" class="pensiones" name="pensiones" id="desayunoS" required value="desayuno"></div>
+                </div>
+                <div id="Mendoza">
+                        <div class="check"><input type="radio" id="Mendoza" name="provincia" required value="Mendoza"></div>
+                        <div class="provincia"><p>MENDOZA</p></div>
+                        <div class="imagen"><img src="mendoza.jpg"></div>
+                        <div class="listas"><ul><li>1⁄2 pensión c/ aéreo</li><br><li>1⁄2 pensión c/ bus</li><br><li>Desayuno s/ traslados</li></ul></div>
+                        <div class="checksPens"><input type="radio" class="pensiones" name="pensiones" id="medioM" required value="aereo">
+                                <input type="radio" class="pensiones" name="pensiones" id="busM" required value="bus">
+                                <input type="radio" class="pensiones" name="pensiones" id="desayunoM" required value="desayuno"></div>
+                </div>
+                <div id="Neuquen">
+                        <div class="check"><input type="radio" id="Neuquen" name="provincia" required value="Neuquen"></div>
+                        <div class="provincia"><p>NEUQUÉN</p></div>
+                        <div class="imagen"><img src="neuquen.webp"></div>
+                        <div class="listas"><ul><li>1⁄2 pensión c/ aéreo</li><br><li>1⁄2 pensión c/ bus</li><br><li>Desayuno s/ traslados</li></ul></div>
+                        <div class="checksPens"><input type="radio" class="pensiones" name="pensiones" id="medioN" required value="aereo">
+                                <input type="radio" class="pensiones" name="pensiones" id="busN" required value="bus">
+                                <input type="radio" class="pensiones" name="pensiones" id="desayunoN" required value="desayuno"></div>
+                </div>
+                <div id="form">
+                        <div class="nombre"><p>NOMBRE</p><textarea required name="nombre"></textarea></div>
+                        <div class="nombre"><p>APELLIDO</p><textarea required name="apellido"></textarea></div>
+                        <div class="correo"><p>CORREO</p><input type="email" required name="correo"></div>
+                        <div class="pago"><p class="formaPago">FORMA DE PAGO</p><input type="radio" required name="pago" id="efectivo" value="efectivo"><p>efectivo</p><input type="radio" required name="pago" id="tarjeta" value="tarjeta"><p>Tarjeta</p></div>
+                        <div class="formItem"><input type="submit" value="ENVIAR" class="submit"></div>
+                </div>
+                </form>
+    </div>
+    </body>
+</html>

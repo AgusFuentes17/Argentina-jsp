@@ -1,0 +1,203 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.container{
+    height: 100%;
+}
+
+h1{
+    background-color: rgb(217,217,217);
+    color: rgb(246,202,172);
+    text-align: center;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    -webkit-text-stroke: 1.5px orange;
+    text-shadow: 20px 10px 15px rgba(0, 0, 0, 0.568);
+    letter-spacing: 15px;
+    width: 100%;
+}
+
+img{
+    height: 75%;
+    border: solid 19px black;
+    width: 75%;
+}
+
+#Salta{
+    background-color: #ffe599;
+    height: 150px;
+    border-bottom: solid 2px black;
+    display: flex;
+    direction: row;
+}
+
+#Mendoza{
+    background-color: #b4c6e7;
+    height: 150px;
+    border-bottom: solid 2px black;
+    display: flex;
+    direction: row;
+}
+
+#Neuquen{
+    background-color: #c5e0b3;
+    height: 150px;
+    display: flex;
+    direction: row;
+}
+
+.check{
+    border-right: solid 2px black;
+    height: 100%;
+    width: 10%;
+    display: flex;
+
+}
+.check > input{
+    margin: auto;
+
+}
+
+.checksPens{
+    background-color: #f7caac;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.listas{
+    width: 25%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pensiones{
+    background-color: #f7caac;
+    margin: auto;
+}
+
+.provincia{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen{
+    width: 15%;
+}
+
+.provincia > p{
+    margin: auto;
+}
+
+.formItem{
+    width: 100%;
+    text-align: center;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    margin-left: 15%;
+}
+
+.nombre > p{
+    height: 100%;
+    width: 25%;
+    font-size: 20px;
+}
+
+textarea{
+    border: solid 2px #87ba64;
+    height: 100%;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+}
+
+.correo{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    margin-left: 15%;
+}
+
+.correo > p{
+    height: 100%;
+    width: 25%;
+    font-size: 20px;
+}
+
+.correo > input{
+    border: solid 2px #87ba64;
+    height: 100%;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+}
+
+.pago{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+.formaPago{
+    margin-right: 20%;
+}
+
+.pago > p{
+    font-size: 20px;
+}
+
+#tarjeta{
+    margin-left: 1%;
+}
+
+.submit{
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    height: 35px;
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#form{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    background-color: #ffe599;
+    margin: 0%;
+}
+
+.datos{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 1%;
+}
